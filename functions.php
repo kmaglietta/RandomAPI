@@ -20,8 +20,8 @@ function callAPI($method, $url, $data = false) {
 
   curl_close($curl);
 
-  var_dump ($result);
+  return $result;
 }
 
-callAPI('POST','https://986q6ottq1.execute-api.us-west-2.amazonaws.com/prod/getquote');
+echo (callAPI('POST','https://986q6ottq1.execute-api.us-west-2.amazonaws.com/prod/getquote'));
 ?>
