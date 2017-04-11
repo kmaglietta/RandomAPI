@@ -5,7 +5,7 @@ function cllCallAPI () {
       console.log(response.responseText);
     },
     error: function () {
-      console.log("Fuck");
+      console.log("error occured obviously ...");
     }
   });
 }
