@@ -2,7 +2,7 @@ function cllCallAPI () {
   $.ajax({
     url:'functions.php',
     complete: function (response) {
-      console.log(response);
+      console.log(response.responseText);
     },
     error: function () {
       console.log("Fuck");

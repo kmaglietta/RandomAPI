@@ -4,7 +4,6 @@ function callAPI($method, $url, $data = false) {
 
   switch ($method) {
     case 'POST':
-      echo "post how";
       curl_setopt($curl, CURLOPT_POST, 1);
       break;
 
