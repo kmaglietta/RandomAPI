@@ -16,7 +16,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <script src="index.js"></script>
 </head>
-<body ng-controller="RandAPIController">
+<body ng-controller="RandAPIController" data-ng-init="getQuote();">
   <h1>Restart</h1>
   <button ng-click="getQuote();">Call</button>
   <div>
