@@ -26,12 +26,17 @@
     </div>
   </div>
 </nav>
-  <h1>Restart</h1>
-  <div>
-    <span>{{body}}</span>
-    <span>{{author}}</span>
+  <div class="row">
+    <div class="col-xs-6 col-sm-4"></div>
+    <div class="col-xs-6 col-sm-4">
+      <h1>Restart</h1>
+      <div>
+        <span>"{{body}}"</span>
+        <span>  -{{author}}</span>
+      </div>
+      <button ng-click="getQuote();" class="btn btn-primary">Call</button>
+    </div>
+    <div class="col-xs-6 col-sm-4"></div>
   </div>
-  <button ng-click="getQuote();" class="btn btn-primary">Call</button>
-
 </body>
 </html>
