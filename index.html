@@ -17,11 +17,21 @@
   <script src="index.js"></script>
 </head>
 <body ng-controller="RandAPIController" data-ng-init="getQuote();">
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        Quote Satus
+      </a>
+    </div>
+  </div>
+</nav>
   <h1>Restart</h1>
   <button ng-click="getQuote();">Call</button>
   <div>
     <span>{{body}}</span>
     <span>{{author}}</span>
   </div>
+
 </body>
 </html>
