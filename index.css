@@ -16,3 +16,12 @@ body {
 .button {
   text-align: center;
 }
+
+footer {
+  border-top: 1px solid #2c3b56;
+}
+
+.center {
+  margin-top: 30px;
+  text-align: center;
+}

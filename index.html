@@ -27,20 +27,40 @@
     </div>
   </div>
 </nav>
-  <div class="row">
-    <div class="col-xs-6 col-sm-4"></div>
-    <div class="col-xs-6 col-sm-4">
-      <div class="button">
-        <button ng-click="getQuote();" class="btn btn-danger">Gimme a new one</button>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4"></div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="button">
+          <button ng-click="getQuote();" class="btn btn-warning">Gimme a new one</button>
+        </div>
+        <div>
+          <h2>"{{body}}"</h2>
+          <p>
+            <em>-{{author}}</em>
+          </p>
+        </div>
       </div>
-      <div>
-        <h1>"{{body}}"</h1>
-        <p>
-          -{{author}}
-        </p>
-      </div>
+      <div class="col-xs-12 col-sm-4"></div>
     </div>
-    <div class="col-xs-6 col-sm-4"></div>
   </div>
+  <!--A nice foorter-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4"></div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="center">
+            <p>
+              Powered by Amazon Web Services
+            </p>
+            <a href="https://aws.amazon.com/">
+              <img src="http://www.ajcsoft.com/images/amazon-s3-logo.png"  />
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4"></div>
+      </div>
+  </footer>
 </body>
 </html>
